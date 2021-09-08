@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "lint": "eslint index.js"
+  },
+  "devDependencies": {
+    "eslint": "https://github.com/AriPerkkio/eslint#15ed988ba16f99871fc403f32f0f9855e209fde8",
+    "eslint-plugin-react": "7.21.5",
+    "react": "16"
+  }
+}

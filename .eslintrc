@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "16.13.1"
+    }
+  },
+  "plugins": ["react"],
+  "rules": {
+    "no-var": "warn",
+    "react/void-dom-elements-no-children": "error",
+    "react/no-typos": "error",
+    "react/jsx-max-depth": "error",
+    "react/jsx-no-script-url": "error",
+    "react/jsx-wrap-multilines": [
+      "error",
+      { "declaration": "parens-new-line" }
+    ],
+    "react/no-unknown-property": "error",
+    "react/no-deprecated": "error"
+  }
+}
